@@ -130,26 +130,84 @@ fetch('/api/projects', {
 ## 🏗️ Estructura del Proyecto
 
 ```
-Hackly/
-├── backend/
-│   ├── src/
-│   │   ├── controllers/
-│   │   ├── models/
-│   │   ├── routes/
-│   │   ├── middleware/
-│   │   └── utils/
-│   ├── package.json
-│   └── server.js
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── hooks/
-│   │   ├── services/
-│   │   └── styles/
-│   ├── package.json
-│   └── vite.config.js
-└── README.md
+├── app.py
+├── assets
+│   ├── chapter_images
+│   │   ├── amazon_voices
+│   │   │   ├── chapter_0.png
+│   │   │   ├── chapter_1.png
+│   │   │   ├── chapter_10 - copia.png:Zone.Identifier
+│   │   │   ├── chapter_10.png
+│   │   │   ├── chapter_10.png:Zone.Identifier
+│   │   │   ├── chapter_2.png
+│   │   │   ├── chapter_3.png
+│   │   │   ├── chapter_4.png
+│   │   │   ├── chapter_5.png
+│   │   │   ├── chapter_6.png
+│   │   │   ├── chapter_7.png
+│   │   │   ├── chapter_8 - copia (2).png:Zone.Identifier
+│   │   │   ├── chapter_8 - copia.png:Zone.Identifier
+│   │   │   ├── chapter_8.png
+│   │   │   └── chapter_9.png
+│   │   └── uncoming_stories
+│   ├── story_covers
+│   │   ├── Portada.png:Zone.Identifier
+│   │   ├── amazon_voices.png
+│   │   ├── upcoming_1.png
+│   │   └── upcoming_2.png
+│   └── ui
+│       ├── feedback_image.png
+│       ├── logo.png
+│       └── resource_icons
+│           ├── confidence.png
+│           ├── influence.png
+│           └── knowledge.png
+├── components
+│   ├── __pycache__
+│   │   ├── chapter_view.cpython-313.pyc
+│   │   ├── feedback_display.cpython-313.pyc
+│   │   ├── introduction.cpython-313.pyc
+│   │   ├── notebook.cpython-313.pyc
+│   │   ├── resource_tracker.cpython-313.pyc
+│   │   ├── story_introduction.cpython-313.pyc
+│   │   ├── story_selector.cpython-313.pyc
+│   │   └── welcome_screen.cpython-313.pyc
+│   ├── chapter_view.py
+│   ├── feedback_display.py
+│   ├── introduction.py
+│   ├── notebook.py
+│   ├── resource_tracker.py
+│   ├── story_introduction.py
+│   ├── story_selector.py
+│   └── welcome_screen.py
+├── requeriments.txt
+├── src
+│   ├── __pycache__
+│   │   └── claude_client.cpython-313.pyc
+│   └── claude_client.py
+├── stories
+│   └── amazon_voices
+│       ├── __pycache__
+│       │   └── chapters.cpython-313.pyc
+│       ├── assets
+│       │   └── chapter_images
+│       ├── chapters.py
+│       ├── characters.py
+│       ├── context_info.py
+│       ├── discoveries.py
+│       ├── feedback_templates.py
+│       └── story_config.py
+├── test_bedrock_sso.py
+└── utils
+    ├── __pycache__
+    │   ├── ai_handler.cpython-313.pyc
+    │   └── state_manager.cpython-313.pyc
+    ├── ai_handler.py
+    ├── desicion_analizer.py
+    ├── state_manager.py
+    └── story_loader.py
+
+19 directories, 58 files
 ```
 
 ## 🤝 Contribución
