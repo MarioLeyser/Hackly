@@ -243,6 +243,7 @@ npm run dev      # Modo desarrollo con hot reload
 npm start        # Producción
 npm test         # Ejecutar tests
 npm run lint     # Linting del código
+streamlit run app.py #Prototipo IA
 ```
 
 ### Frontend
