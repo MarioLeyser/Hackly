@@ -64,8 +64,6 @@ npm install
 Crea un archivo `.env` en la carpeta backend:
 ```env
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/hackly
-JWT_SECRET=tu_clave_secreta_aqui
 NODE_ENV=development
 ```
 
